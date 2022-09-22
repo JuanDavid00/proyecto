@@ -1,0 +1,48 @@
+*{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    margin: 20px;
+}
+
+img{
+    margin: 30px;
+}
+
+.foto{
+    width: 300px;
+    border-radius: 7%;
+}
+body{
+    background: -moz-radial-gradient(#B6B4A8, #464E16 );
+}
+
+#estud{
+    background-image: url(./Imagenes/estudiante.jpg) ; 
+    background-size: cover;
+    
+}
+#doce{
+    background-image: url(./Imagenes/docente.jpg);
+    background-size: cover;
+}
+
+#icono{
+    width: 80px;
+}
+
+h5.card-title{
+    color: #464E16;
+    opacity: 100%;
+}
+
+p.card-text{
+    color: #737478;
+    opacity: 100%;
+}
+.card{
+    opacity: 80%;
+}
+#bton{
+    opacity: 100%;
+    
+}

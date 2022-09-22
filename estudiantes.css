@@ -1,0 +1,23 @@
+body{
+   /* background-image: url(./Imagenes/logo1.png);
+    
+    background-size: 142px;
+    background-repeat:space;
+    */
+    background-image: url(./Imagenes/javeTarde.jpg);
+    background-size: cover;
+}
+
+
+.card-body{
+    /*background: -moz-linear-gradient(#415A77, #ACB7C3);*/
+    /*background: -webkit-repeating-linear-gradient(#6C757D);*/
+     background-image: radial-gradient(circle, #3A4046, #3F454C, #495057, #6C757D, #a1a3a7);
+}
+.card-title{
+    color: #ffffff;
+}
+.card-text{
+    color: rgb(255, 255, 255);
+}
+

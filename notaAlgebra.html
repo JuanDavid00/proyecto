@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <title>Algebra</title>
+</head>
+<body>
+
+    <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="Estudiante">Algebra</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">"nombre de usuario"</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">volver al menu principal</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Actividades
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Actividad 1</a></li>
+                      <li><a class="dropdown-item" href="#">Actividad 2</a></li>
+                      <li><a class="dropdown-item" href="#">Actividad 3</a></li>
+                    </ul>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Notas
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Actividad 1</a></li>
+                      <li><a class="dropdown-item" href="#">Actividad 2</a></li>
+                      <li><a class="dropdown-item" href="#">Actividad 3</a></li>
+                      <li><a class="dropdown-item" href="#">promedio final</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <br><br><br>
+      <br>  
+
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">informacion principal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">actividades del semestre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Notas finales</a>
+        </li>
+      </ul>
+
+      <br>
+
+
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 20px; max-width: 150vh;">
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Actividad 1</h5>
+              <p class="card-text">el estudiante realizara un crusigrama con temas vistos e investigados en clase</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Nota: 3.0</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Actividad 2</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Nota: 4.0</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Actividad 3</h5>
+              <p class="card-text">ver el video y resolver los puntos descritos en clase, resolver puntos 1,2,3 del libro algebra avanzada</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Nota: 3.0</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-outline-primary" style="margin: 10px 30px; width: 200px;">Promedio final</button>
+
+
+</body>
+</html>
